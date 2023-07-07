@@ -2,6 +2,8 @@
 
 The White Board Application is a Python script that creates a simple whiteboard interface using the tkinter library. It allows users to draw lines of different colors and widths, import images onto the canvas, and customize the drawing experience.
 
+![Screenshot 2023-07-07 181354](https://github.com/ankittmeena/White-Board-Application/assets/129949224/5bfba5fe-3aac-49d1-822e-ebe30a3d35a5)
+
 ## Features
 
 - Drawing lines: Users can draw lines on the canvas by clicking and dragging the mouse.
