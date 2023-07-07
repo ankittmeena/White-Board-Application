@@ -53,17 +53,17 @@ def my_callback(event):
     
 #icon
 
-image_icon=PhotoImage(file="White Board/logo.png")
+image_icon=PhotoImage(file="logo.png")
 root.iconphoto(False,image_icon)
 
 ##sidebar
-color_box=PhotoImage(file="White Board/color section.png")
+color_box=PhotoImage(file="color section.png")
 Label(root,image=color_box,bg="#fff").place(x=10,y=20)
 
-eraser=PhotoImage(file="White Board/eraser1.png")
+eraser=PhotoImage(file="eraser1.png")
 Button(root,image=eraser,bg="#f2f3f5",command=new_canvas).place(x=30,y=380)
 
-importimage=PhotoImage(file="White Board/addimage.png")
+importimage=PhotoImage(file="addimage.png")
 Button(root,image=importimage,bg="#f2f3f5",command=insertimage).place(x=30,y=430)
 
 ##colors
